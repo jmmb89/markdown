@@ -3,19 +3,20 @@
 ## História
 
 Aproveito o exercício para compartilhar um pequeno programa em python que criei.  
-Criei este programa porque minha namorada nunca consegue decidir entre o que comer, assistir e este programa resolve o problema.
+Criei este programa porque minha namorada nunca consegue decidir entre o que comer ou assistir e este programa resolve o problema de forma rápida.
 
 uso:
 
+>*Note: Usar com python 2.7*
+
 |Input|Valor|
 |-----|-----|
-|n de escolhas|int de 1 a 10|
+|n de escolhas|int de 2 a 10|
 |escolhas|str/int/float|
 
 
 ```$ python2.7 coin.py```
 
->*Note: Só roda com python 2.7*__
 
 ```python
 
@@ -56,7 +57,7 @@ while coinLoop:
 exit()
 ```
  
-*To do*
+*To do:*
 
 - Deixar compatível com python3
-- Criar a seed a partir do tempo do UNIX, deixando "mais randomico".
+- Criar a seed a partir do UNIX Epoch time, deixando "mais randomico".
