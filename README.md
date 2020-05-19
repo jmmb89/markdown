@@ -13,11 +13,11 @@ uso:
 |escolhas|str/int/float|
 
 
-´´´$ python2.7 coin.py´´´
+```$ python2.7 coin.py```
 
-__*Só roda com python 2.7*__
+>*Note: Só roda com python 2.7*__
 
-´´´python
+```python
 
 from sys import exit
 import random
@@ -54,10 +54,9 @@ while coinLoop:
 	else:
 		print("\nNot a valid number!\nTry Again!\n")
 exit()
-´´´
+```
  
 *To do*
 
-*[x] polimento do código.
-*[] fazer o programa compativel com python3 e python2.7
-*[] Criar a seed para o random a partir do tempo do UNIX, deixando "mais randomico".
+- Deixar compatível com python3
+- Criar a seed a partir do tempo do UNIX, deixando "mais randomico".
